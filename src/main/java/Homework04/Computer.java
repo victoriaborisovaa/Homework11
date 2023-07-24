@@ -1,3 +1,5 @@
+package Homework04;
+
 public class Computer {
     int year;
     double price;

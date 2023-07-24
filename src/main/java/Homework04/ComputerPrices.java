@@ -1,3 +1,7 @@
+package Homework04;
+
+import Homework04.Computer;
+
 public class ComputerPrices {
     public static void main(String[] args) {
         Computer Windows = new Computer (2019, 3000.0,"Windows");
@@ -10,7 +14,6 @@ public class ComputerPrices {
             System.out.println("The price of Mac is higher than Windows.");
         } else {
             System.out.println("The prices of Windows and Mac are the same.");
-
-    }
+        }
 }
 }
